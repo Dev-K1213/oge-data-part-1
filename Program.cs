@@ -47,7 +47,7 @@ class Program
     {
         Program program = new Program();
         program.ReadCSV("Francis Tuttle Identities_Basic.csv");
-        Console.WriteLine(program.oge_data.Count);
+        Console.WriteLine("Total # of elements in list: " + program.oge_data.Count);
     }
 
     void ReadCSV(string path)
